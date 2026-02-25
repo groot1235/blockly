@@ -11,6 +11,7 @@
   "dependencies": {
     "@base-ui/react": "^1.2.0",
     "@blockly/field-angle": "^6.0.8",
+    "@blockly/theme-dark": "^8.0.3",
     "@clerk/nextjs": "^6.38.2",
     "@hookform/resolvers": "^5.2.2",
     "blockly": "^12.4.1",

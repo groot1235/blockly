@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, Check, Play, RotateCcw } from "lucide-react";
 import Link from "next/link";
 import * as Blockly from "blockly";
+import DarkTheme from "@blockly/theme-dark";
 import { javascriptGenerator } from "blockly/javascript";
 import "@/lib/blocks/birdBlocks";
 
@@ -46,7 +47,7 @@ const BirdPage = () => {
        <block type="bird_position"></block>
        <block type="bird_and"></block>
      </xml>`,
-            theme: Blockly.Themes.Dark,
+            theme: DarkTheme,
             move: {
                 scrollbars: true,
                 drag: true,

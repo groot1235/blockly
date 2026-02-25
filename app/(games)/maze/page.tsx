@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, Check, Play, RotateCcw } from "lucide-react";
 import Link from "next/link";
 import * as Blockly from "blockly";
+import DarkTheme from "@blockly/theme-dark";
 import { javascriptGenerator } from "blockly/javascript";
 import "@/lib/blocks/mazeBlocks";
 
@@ -50,7 +51,7 @@ const MazePage = () => {
        <block type="maze_ifElse"></block>
        <block type="maze_forever"></block>
      </xml>`,
-            theme: Blockly.Themes.Dark,
+            theme: DarkTheme,
             move: {
                 scrollbars: true,
                 drag: true,
